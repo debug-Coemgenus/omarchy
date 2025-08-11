@@ -51,7 +51,7 @@ show_subtext "Installing terminal tools [2/5]"
 source $OMARCHY_INSTALL/development/terminal.sh
 source $OMARCHY_INSTALL/development/development.sh
 source $OMARCHY_INSTALL/development/nvim.sh
-source $OMARCHY_INSTALL/development/ruby.sh
+# source $OMARCHY_INSTALL/development/ruby.sh
 source $OMARCHY_INSTALL/development/docker.sh
 source $OMARCHY_INSTALL/development/firewall.sh
 
@@ -62,14 +62,14 @@ source $OMARCHY_INSTALL/desktop/desktop.sh
 source $OMARCHY_INSTALL/desktop/hyprlandia.sh
 source $OMARCHY_INSTALL/desktop/theme.sh
 source $OMARCHY_INSTALL/desktop/bluetooth.sh
-source $OMARCHY_INSTALL/desktop/asdcontrol.sh
+# source $OMARCHY_INSTALL/desktop/asdcontrol.sh # Apple display control. I never use one.
 source $OMARCHY_INSTALL/desktop/fonts.sh
 source $OMARCHY_INSTALL/desktop/printer.sh
 
 # Apps
 show_logo expand
 show_subtext "Installing default applications [4/5]"
-source $OMARCHY_INSTALL/apps/webapps.sh
+# source $OMARCHY_INSTALL/apps/webapps.sh # Add as needed.
 source $OMARCHY_INSTALL/apps/xtras.sh
 source $OMARCHY_INSTALL/apps/mimetypes.sh
 
